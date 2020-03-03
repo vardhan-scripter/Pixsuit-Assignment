@@ -1,0 +1,279 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.handshake-div p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.handshake-desc h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.handshake-desc p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 0 20px;
+}
+
+.handshake {
+    width: 100px;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+.handshake-main {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #f8f8f8;
+    background: -moz-linear-gradient(left, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+}
+
+.card-body {
+    height: 155px;
+    padding: 15px;
+}
+
+.card-body-img {
+    width: 60px;
+    height: 60px;
+}
+
+.header-title {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    color: #333;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+h4 {
+    color: black;
+    font-weight: 700;
+}
+
+.btn {
+    color: #fff;
+    background: #f0483e;
+    padding: 8px 20px;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 1000;
+    border-radius: 0;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .handshake-div {
+        padding: 40px 15px 0px 15px;
+    }
+    .handshake-desc {
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .handshake-desc h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .handshake-desc p {
+        font-size: 14px;
+        line-height: 1.8;
+        margin: 0 0 20px;
+        padding: 0 20px;
+    }
+    .handshake {
+        width: 100px;
+        height: 75px;
+        display: block;
+        margin: 0 auto;
+    }
+    .handshake-main {
+        margin: 0px;
+        padding: 0;
+        border: 1px solid #f8f8f8;
+        background: -moz-linear-gradient(left, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+        background: -webkit-linear-gradient(left, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(to right, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    }
+    .card-body-mobile {
+        height: 180px;
+    }
+    .card-body-img {
+        width: 44px;
+        height: 44px;
+    }
+    .card-body-mobile a div {
+        text-align: center;
+        padding: 20px;
+    }
+    .card-body-mobile a div .col-sm-4 {
+        padding: 0;
+    }
+    .card-body-mobile a div .col-sm-8 {
+        padding: 0;
+    }
+    .card-body-mobile a div .col-sm-8 label {
+        display: none;
+    }
+    em {
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 6px 12px;
+        margin-top: 15px;
+        display: inline-block;
+        color: #03a9f5;
+        text-decoration: underline;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    .handshake-div {
+        padding: 40px 15px 0px 15px;
+    }
+    .handshake-desc {
+        padding: 20px 30px;
+    }
+    .handshake-desc h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .handshake-desc p {
+        font-size: 14px;
+        line-height: 1.8;
+        margin: 0 0 20px;
+    }
+    .handshake {
+        width: 100px;
+        height: 75px;
+        display: block;
+        margin: 0 auto;
+    }
+    .handshake-main {
+        margin: 0px;
+        padding: 0;
+        border: 1px solid #f8f8f8;
+        background: -moz-linear-gradient(left, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+        background: -webkit-linear-gradient(left, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(to right, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    }
+    .card-body-mobile {
+        height: 180px;
+    }
+    .card-body-img {
+        width: 44px;
+        height: 44px;
+    }
+    .card-body-mobile a div {
+        padding: 20px;
+    }
+    .card-body-mobile a div .col-sm-4 {
+        padding: 25px 10px 10px 60px;
+    }
+    .card-body-mobile a div .col-sm-8 {
+        padding: 10px 60px 10px 10px;
+    }
+    em {
+        font-size: 11px;
+        text-transform: uppercase;
+        border: 1px solid #03a9f5;
+        padding: 6px 12px;
+        margin-top: 15px;
+        display: inline-block;
+        color: #03a9f5;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .card-body .col-sm-4 {
+        padding: 6px 10px 10px 60px;
+    }
+    .handshake-div {
+        padding: 60px 15px 40px 15px;
+    }
+    .handshake-desc {
+        padding: 30px 0px;
+    }
+    em {
+        font-size: 11px;
+        text-transform: uppercase;
+        border: 1px solid #03a9f5;
+        padding: 6px 12px;
+        margin-top: 15px;
+        display: inline-block;
+        color: #03a9f5;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .card-body .col-sm-4 {
+        padding: 3px 10px 10px 15px;
+    }
+    .handshake-div {
+        padding: 60px 15px 40px 15px;
+    }
+    .handshake-desc {
+        padding: 30px 0px;
+    }
+    em {
+        font-size: 11px;
+        text-transform: uppercase;
+        border: 1px solid #03a9f5;
+        padding: 6px 12px;
+        margin-top: 15px;
+        display: inline-block;
+        color: #03a9f5;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .card-body .col-sm-4 {
+        padding: 3px 10px 10px 50px;
+    }
+    .handshake-div {
+        padding: 100px 15px 40px 15px;
+    }
+    .handshake-desc {
+        padding: 70px 0px;
+    }
+    em {
+        font-size: 11px;
+        text-transform: uppercase;
+        border: 1px solid #03a9f5;
+        padding: 6px 12px;
+        margin-top: 15px;
+        display: inline-block;
+        color: #03a9f5;
+    }
+}
